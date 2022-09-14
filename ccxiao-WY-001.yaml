@@ -1,143 +1,119 @@
-﻿port: 7890
+port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: GetAFreeNode-Tokyo, server: 103.173.178.110, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Amsterdam, server: 89.208.105.63, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Novosibirsk, server: 80.66.64.17, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Vienna, server: 94.177.8.87, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Moscow, server: 185.112.83.35, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: VPN-for-China-->xeton.co, server: 185.194.30.40, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Amsterdam 2, server: 89.208.105.63, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Novosibirsk 2, server: 80.66.64.17, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Vienna 2, server: 94.177.8.87, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Moscow 2, server: 185.112.83.35, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: VPN-for-China-->xeton.co 2, server: 185.194.30.40, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Tokyo 2, server: 103.173.178.110, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Amsterdam 3, server: 89.208.105.63, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Novosibirsk 3, server: 80.66.64.17, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Vienna 3, server: 94.177.8.87, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Moscow 3, server: 185.112.83.35, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: VPN-for-China-->xeton.co 3, server: 185.194.30.40, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Tokyo 3, server: 103.173.178.110, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Amsterdam 4, server: 89.208.105.63, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Novosibirsk 4, server: 80.66.64.17, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Vienna 4, server: 94.177.8.87, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Moscow 4, server: 185.112.83.35, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: VPN-for-China-->xeton.co 4, server: 185.194.30.40, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Tokyo 4, server: 103.173.178.110, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Amsterdam 5, server: 89.208.105.63, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Novosibirsk 5, server: 80.66.64.17, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Vienna 5, server: 94.177.8.87, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Moscow 5, server: 185.112.83.35, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: VPN-for-China-->xeton.co 5, server: 185.194.30.40, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Novosibirsk, server: 80.66.64.17, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Novosibirsk 2, server: 80.66.64.17, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Novosibirsk 3, server: 80.66.64.17, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Novosibirsk 4, server: 80.66.64.17, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Novosibirsk 5, server: 80.66.64.17, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: VPN-for-China--ccxiao, server: 185.194.30.40, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: VPN-for-China--ccxiao 2, server: 185.194.30.40, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: VPN-for-China--ccxiao 3, server: 185.194.30.40, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Moscow, server: 185.112.83.35, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Moscow 2, server: 185.112.83.35, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Moscow 3, server: 185.112.83.35, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Vienna, server: 94.177.8.87, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Moscow 4, server: 185.112.83.35, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: VPN-for-China--ccxiao 4, server: 185.194.30.40, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Moscow 5, server: 185.112.83.35, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Vienna 2, server: 94.177.8.87, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Vienna 3, server: 94.177.8.87, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Vienna 4, server: 94.177.8.87, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Vienna 5, server: 94.177.8.87, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Tokyo, server: 103.173.178.110, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Tokyo 2, server: 103.173.178.110, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Tokyo 3, server: 103.173.178.110, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Tokyo 4, server: 103.173.178.110, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GetAFreeNode-Tokyo
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Novosibirsk
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - VPN-for-China-->xeton.co
-      - GetAFreeNode-Amsterdam 2
-      - GetAFreeNode-Novosibirsk 2
-      - GetAFreeNode-Vienna 2
-      - GetAFreeNode-Moscow 2
-      - VPN-for-China-->xeton.co 2
-      - GetAFreeNode-Tokyo 2
-      - GetAFreeNode-Amsterdam 3
-      - GetAFreeNode-Novosibirsk 3
-      - GetAFreeNode-Vienna 3
-      - GetAFreeNode-Moscow 3
-      - VPN-for-China-->xeton.co 3
-      - GetAFreeNode-Tokyo 3
-      - GetAFreeNode-Amsterdam 4
-      - GetAFreeNode-Novosibirsk 4
-      - GetAFreeNode-Vienna 4
-      - GetAFreeNode-Moscow 4
-      - VPN-for-China-->xeton.co 4
-      - GetAFreeNode-Tokyo 4
-      - GetAFreeNode-Amsterdam 5
-      - GetAFreeNode-Novosibirsk 5
-      - GetAFreeNode-Vienna 5
-      - GetAFreeNode-Moscow 5
-      - VPN-for-China-->xeton.co 5
+      - ccxiao-Novosibirsk
+      - ccxiao-Novosibirsk 2
+      - ccxiao-Novosibirsk 3
+      - ccxiao-Novosibirsk 4
+      - ccxiao-Novosibirsk 5
+      - VPN-for-China--ccxiao
+      - VPN-for-China--ccxiao 2
+      - VPN-for-China--ccxiao 3
+      - ccxiao-Moscow
+      - ccxiao-Moscow 2
+      - ccxiao-Moscow 3
+      - ccxiao-Vienna
+      - ccxiao-Moscow 4
+      - VPN-for-China--ccxiao 4
+      - ccxiao-Moscow 5
+      - ccxiao-Vienna 2
+      - ccxiao-Vienna 3
+      - ccxiao-Vienna 4
+      - ccxiao-Vienna 5
+      - ccxiao-Tokyo
+      - ccxiao-Tokyo 2
+      - ccxiao-Tokyo 3
+      - ccxiao-Tokyo 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - GetAFreeNode-Tokyo
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Novosibirsk
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - VPN-for-China-->xeton.co
-      - GetAFreeNode-Amsterdam 2
-      - GetAFreeNode-Novosibirsk 2
-      - GetAFreeNode-Vienna 2
-      - GetAFreeNode-Moscow 2
-      - VPN-for-China-->xeton.co 2
-      - GetAFreeNode-Tokyo 2
-      - GetAFreeNode-Amsterdam 3
-      - GetAFreeNode-Novosibirsk 3
-      - GetAFreeNode-Vienna 3
-      - GetAFreeNode-Moscow 3
-      - VPN-for-China-->xeton.co 3
-      - GetAFreeNode-Tokyo 3
-      - GetAFreeNode-Amsterdam 4
-      - GetAFreeNode-Novosibirsk 4
-      - GetAFreeNode-Vienna 4
-      - GetAFreeNode-Moscow 4
-      - VPN-for-China-->xeton.co 4
-      - GetAFreeNode-Tokyo 4
-      - GetAFreeNode-Amsterdam 5
-      - GetAFreeNode-Novosibirsk 5
-      - GetAFreeNode-Vienna 5
-      - GetAFreeNode-Moscow 5
-      - VPN-for-China-->xeton.co 5
+      - ccxiao-Novosibirsk
+      - ccxiao-Novosibirsk 2
+      - ccxiao-Novosibirsk 3
+      - ccxiao-Novosibirsk 4
+      - ccxiao-Novosibirsk 5
+      - VPN-for-China--ccxiao
+      - VPN-for-China--ccxiao 2
+      - VPN-for-China--ccxiao 3
+      - ccxiao-Moscow
+      - ccxiao-Moscow 2
+      - ccxiao-Moscow 3
+      - ccxiao-Vienna
+      - ccxiao-Moscow 4
+      - VPN-for-China--ccxiao 4
+      - ccxiao-Moscow 5
+      - ccxiao-Vienna 2
+      - ccxiao-Vienna 3
+      - ccxiao-Vienna 4
+      - ccxiao-Vienna 5
+      - ccxiao-Tokyo
+      - ccxiao-Tokyo 2
+      - ccxiao-Tokyo 3
+      - ccxiao-Tokyo 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GetAFreeNode-Tokyo
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Novosibirsk
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - VPN-for-China-->xeton.co
-      - GetAFreeNode-Amsterdam 2
-      - GetAFreeNode-Novosibirsk 2
-      - GetAFreeNode-Vienna 2
-      - GetAFreeNode-Moscow 2
-      - VPN-for-China-->xeton.co 2
-      - GetAFreeNode-Tokyo 2
-      - GetAFreeNode-Amsterdam 3
-      - GetAFreeNode-Novosibirsk 3
-      - GetAFreeNode-Vienna 3
-      - GetAFreeNode-Moscow 3
-      - VPN-for-China-->xeton.co 3
-      - GetAFreeNode-Tokyo 3
-      - GetAFreeNode-Amsterdam 4
-      - GetAFreeNode-Novosibirsk 4
-      - GetAFreeNode-Vienna 4
-      - GetAFreeNode-Moscow 4
-      - VPN-for-China-->xeton.co 4
-      - GetAFreeNode-Tokyo 4
-      - GetAFreeNode-Amsterdam 5
-      - GetAFreeNode-Novosibirsk 5
-      - GetAFreeNode-Vienna 5
-      - GetAFreeNode-Moscow 5
-      - VPN-for-China-->xeton.co 5
+      - ccxiao-Novosibirsk
+      - ccxiao-Novosibirsk 2
+      - ccxiao-Novosibirsk 3
+      - ccxiao-Novosibirsk 4
+      - ccxiao-Novosibirsk 5
+      - VPN-for-China--ccxiao
+      - VPN-for-China--ccxiao 2
+      - VPN-for-China--ccxiao 3
+      - ccxiao-Moscow
+      - ccxiao-Moscow 2
+      - ccxiao-Moscow 3
+      - ccxiao-Vienna
+      - ccxiao-Moscow 4
+      - VPN-for-China--ccxiao 4
+      - ccxiao-Moscow 5
+      - ccxiao-Vienna 2
+      - ccxiao-Vienna 3
+      - ccxiao-Vienna 4
+      - ccxiao-Vienna 5
+      - ccxiao-Tokyo
+      - ccxiao-Tokyo 2
+      - ccxiao-Tokyo 3
+      - ccxiao-Tokyo 4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -156,35 +132,29 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GetAFreeNode-Tokyo
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Novosibirsk
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - VPN-for-China-->xeton.co
-      - GetAFreeNode-Amsterdam 2
-      - GetAFreeNode-Novosibirsk 2
-      - GetAFreeNode-Vienna 2
-      - GetAFreeNode-Moscow 2
-      - VPN-for-China-->xeton.co 2
-      - GetAFreeNode-Tokyo 2
-      - GetAFreeNode-Amsterdam 3
-      - GetAFreeNode-Novosibirsk 3
-      - GetAFreeNode-Vienna 3
-      - GetAFreeNode-Moscow 3
-      - VPN-for-China-->xeton.co 3
-      - GetAFreeNode-Tokyo 3
-      - GetAFreeNode-Amsterdam 4
-      - GetAFreeNode-Novosibirsk 4
-      - GetAFreeNode-Vienna 4
-      - GetAFreeNode-Moscow 4
-      - VPN-for-China-->xeton.co 4
-      - GetAFreeNode-Tokyo 4
-      - GetAFreeNode-Amsterdam 5
-      - GetAFreeNode-Novosibirsk 5
-      - GetAFreeNode-Vienna 5
-      - GetAFreeNode-Moscow 5
-      - VPN-for-China-->xeton.co 5
+      - ccxiao-Novosibirsk
+      - ccxiao-Novosibirsk 2
+      - ccxiao-Novosibirsk 3
+      - ccxiao-Novosibirsk 4
+      - ccxiao-Novosibirsk 5
+      - VPN-for-China--ccxiao
+      - VPN-for-China--ccxiao 2
+      - VPN-for-China--ccxiao 3
+      - ccxiao-Moscow
+      - ccxiao-Moscow 2
+      - ccxiao-Moscow 3
+      - ccxiao-Vienna
+      - ccxiao-Moscow 4
+      - VPN-for-China--ccxiao 4
+      - ccxiao-Moscow 5
+      - ccxiao-Vienna 2
+      - ccxiao-Vienna 3
+      - ccxiao-Vienna 4
+      - ccxiao-Vienna 5
+      - ccxiao-Tokyo
+      - ccxiao-Tokyo 2
+      - ccxiao-Tokyo 3
+      - ccxiao-Tokyo 4
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -195,104 +165,86 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - GetAFreeNode-Tokyo
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Novosibirsk
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - VPN-for-China-->xeton.co
-      - GetAFreeNode-Amsterdam 2
-      - GetAFreeNode-Novosibirsk 2
-      - GetAFreeNode-Vienna 2
-      - GetAFreeNode-Moscow 2
-      - VPN-for-China-->xeton.co 2
-      - GetAFreeNode-Tokyo 2
-      - GetAFreeNode-Amsterdam 3
-      - GetAFreeNode-Novosibirsk 3
-      - GetAFreeNode-Vienna 3
-      - GetAFreeNode-Moscow 3
-      - VPN-for-China-->xeton.co 3
-      - GetAFreeNode-Tokyo 3
-      - GetAFreeNode-Amsterdam 4
-      - GetAFreeNode-Novosibirsk 4
-      - GetAFreeNode-Vienna 4
-      - GetAFreeNode-Moscow 4
-      - VPN-for-China-->xeton.co 4
-      - GetAFreeNode-Tokyo 4
-      - GetAFreeNode-Amsterdam 5
-      - GetAFreeNode-Novosibirsk 5
-      - GetAFreeNode-Vienna 5
-      - GetAFreeNode-Moscow 5
-      - VPN-for-China-->xeton.co 5
+      - ccxiao-Novosibirsk
+      - ccxiao-Novosibirsk 2
+      - ccxiao-Novosibirsk 3
+      - ccxiao-Novosibirsk 4
+      - ccxiao-Novosibirsk 5
+      - VPN-for-China--ccxiao
+      - VPN-for-China--ccxiao 2
+      - VPN-for-China--ccxiao 3
+      - ccxiao-Moscow
+      - ccxiao-Moscow 2
+      - ccxiao-Moscow 3
+      - ccxiao-Vienna
+      - ccxiao-Moscow 4
+      - VPN-for-China--ccxiao 4
+      - ccxiao-Moscow 5
+      - ccxiao-Vienna 2
+      - ccxiao-Vienna 3
+      - ccxiao-Vienna 4
+      - ccxiao-Vienna 5
+      - ccxiao-Tokyo
+      - ccxiao-Tokyo 2
+      - ccxiao-Tokyo 3
+      - ccxiao-Tokyo 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - GetAFreeNode-Tokyo
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Novosibirsk
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - VPN-for-China-->xeton.co
-      - GetAFreeNode-Amsterdam 2
-      - GetAFreeNode-Novosibirsk 2
-      - GetAFreeNode-Vienna 2
-      - GetAFreeNode-Moscow 2
-      - VPN-for-China-->xeton.co 2
-      - GetAFreeNode-Tokyo 2
-      - GetAFreeNode-Amsterdam 3
-      - GetAFreeNode-Novosibirsk 3
-      - GetAFreeNode-Vienna 3
-      - GetAFreeNode-Moscow 3
-      - VPN-for-China-->xeton.co 3
-      - GetAFreeNode-Tokyo 3
-      - GetAFreeNode-Amsterdam 4
-      - GetAFreeNode-Novosibirsk 4
-      - GetAFreeNode-Vienna 4
-      - GetAFreeNode-Moscow 4
-      - VPN-for-China-->xeton.co 4
-      - GetAFreeNode-Tokyo 4
-      - GetAFreeNode-Amsterdam 5
-      - GetAFreeNode-Novosibirsk 5
-      - GetAFreeNode-Vienna 5
-      - GetAFreeNode-Moscow 5
-      - VPN-for-China-->xeton.co 5
+      - ccxiao-Novosibirsk
+      - ccxiao-Novosibirsk 2
+      - ccxiao-Novosibirsk 3
+      - ccxiao-Novosibirsk 4
+      - ccxiao-Novosibirsk 5
+      - VPN-for-China--ccxiao
+      - VPN-for-China--ccxiao 2
+      - VPN-for-China--ccxiao 3
+      - ccxiao-Moscow
+      - ccxiao-Moscow 2
+      - ccxiao-Moscow 3
+      - ccxiao-Vienna
+      - ccxiao-Moscow 4
+      - VPN-for-China--ccxiao 4
+      - ccxiao-Moscow 5
+      - ccxiao-Vienna 2
+      - ccxiao-Vienna 3
+      - ccxiao-Vienna 4
+      - ccxiao-Vienna 5
+      - ccxiao-Tokyo
+      - ccxiao-Tokyo 2
+      - ccxiao-Tokyo 3
+      - ccxiao-Tokyo 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GetAFreeNode-Tokyo
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Novosibirsk
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - VPN-for-China-->xeton.co
-      - GetAFreeNode-Amsterdam 2
-      - GetAFreeNode-Novosibirsk 2
-      - GetAFreeNode-Vienna 2
-      - GetAFreeNode-Moscow 2
-      - VPN-for-China-->xeton.co 2
-      - GetAFreeNode-Tokyo 2
-      - GetAFreeNode-Amsterdam 3
-      - GetAFreeNode-Novosibirsk 3
-      - GetAFreeNode-Vienna 3
-      - GetAFreeNode-Moscow 3
-      - VPN-for-China-->xeton.co 3
-      - GetAFreeNode-Tokyo 3
-      - GetAFreeNode-Amsterdam 4
-      - GetAFreeNode-Novosibirsk 4
-      - GetAFreeNode-Vienna 4
-      - GetAFreeNode-Moscow 4
-      - VPN-for-China-->xeton.co 4
-      - GetAFreeNode-Tokyo 4
-      - GetAFreeNode-Amsterdam 5
-      - GetAFreeNode-Novosibirsk 5
-      - GetAFreeNode-Vienna 5
-      - GetAFreeNode-Moscow 5
-      - VPN-for-China-->xeton.co 5
+      - ccxiao-Novosibirsk
+      - ccxiao-Novosibirsk 2
+      - ccxiao-Novosibirsk 3
+      - ccxiao-Novosibirsk 4
+      - ccxiao-Novosibirsk 5
+      - VPN-for-China--ccxiao
+      - VPN-for-China--ccxiao 2
+      - VPN-for-China--ccxiao 3
+      - ccxiao-Moscow
+      - ccxiao-Moscow 2
+      - ccxiao-Moscow 3
+      - ccxiao-Vienna
+      - ccxiao-Moscow 4
+      - VPN-for-China--ccxiao 4
+      - ccxiao-Moscow 5
+      - ccxiao-Vienna 2
+      - ccxiao-Vienna 3
+      - ccxiao-Vienna 4
+      - ccxiao-Vienna 5
+      - ccxiao-Tokyo
+      - ccxiao-Tokyo 2
+      - ccxiao-Tokyo 3
+      - ccxiao-Tokyo 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -308,35 +260,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GetAFreeNode-Tokyo
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Novosibirsk
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - VPN-for-China-->xeton.co
-      - GetAFreeNode-Amsterdam 2
-      - GetAFreeNode-Novosibirsk 2
-      - GetAFreeNode-Vienna 2
-      - GetAFreeNode-Moscow 2
-      - VPN-for-China-->xeton.co 2
-      - GetAFreeNode-Tokyo 2
-      - GetAFreeNode-Amsterdam 3
-      - GetAFreeNode-Novosibirsk 3
-      - GetAFreeNode-Vienna 3
-      - GetAFreeNode-Moscow 3
-      - VPN-for-China-->xeton.co 3
-      - GetAFreeNode-Tokyo 3
-      - GetAFreeNode-Amsterdam 4
-      - GetAFreeNode-Novosibirsk 4
-      - GetAFreeNode-Vienna 4
-      - GetAFreeNode-Moscow 4
-      - VPN-for-China-->xeton.co 4
-      - GetAFreeNode-Tokyo 4
-      - GetAFreeNode-Amsterdam 5
-      - GetAFreeNode-Novosibirsk 5
-      - GetAFreeNode-Vienna 5
-      - GetAFreeNode-Moscow 5
-      - VPN-for-China-->xeton.co 5
+      - ccxiao-Novosibirsk
+      - ccxiao-Novosibirsk 2
+      - ccxiao-Novosibirsk 3
+      - ccxiao-Novosibirsk 4
+      - ccxiao-Novosibirsk 5
+      - VPN-for-China--ccxiao
+      - VPN-for-China--ccxiao 2
+      - VPN-for-China--ccxiao 3
+      - ccxiao-Moscow
+      - ccxiao-Moscow 2
+      - ccxiao-Moscow 3
+      - ccxiao-Vienna
+      - ccxiao-Moscow 4
+      - VPN-for-China--ccxiao 4
+      - ccxiao-Moscow 5
+      - ccxiao-Vienna 2
+      - ccxiao-Vienna 3
+      - ccxiao-Vienna 4
+      - ccxiao-Vienna 5
+      - ccxiao-Tokyo
+      - ccxiao-Tokyo 2
+      - ccxiao-Tokyo 3
+      - ccxiao-Tokyo 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
