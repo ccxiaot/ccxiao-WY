@@ -5,29 +5,30 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ccxiao-Novosibirsk, server: 80.66.64.17, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Novosibirsk 2, server: 80.66.64.17, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Novosibirsk 3, server: 80.66.64.17, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Novosibirsk 4, server: 80.66.64.17, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Novosibirsk 5, server: 80.66.64.17, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: VPN-for-China--ccxiao, server: 185.194.30.40, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: VPN-for-China--ccxiao 2, server: 185.194.30.40, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: VPN-for-China--ccxiao 3, server: 185.194.30.40, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Moscow, server: 185.112.83.35, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Moscow 2, server: 185.112.83.35, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Moscow 3, server: 185.112.83.35, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Vienna, server: 94.177.8.87, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Moscow 4, server: 185.112.83.35, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: VPN-for-China--ccxiao 4, server: 185.194.30.40, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Moscow 5, server: 185.112.83.35, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Vienna 2, server: 94.177.8.87, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Vienna 3, server: 94.177.8.87, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Vienna 4, server: 94.177.8.87, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Vienna 5, server: 94.177.8.87, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Novosibirsk, server: 80.66.64.17, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Novosibirsk 2, server: 80.66.64.17, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Novosibirsk 3, server: 80.66.64.17, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Novosibirsk 4, server: 80.66.64.17, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: VPN-For-China--ccxiao, server: seoul.napsternetv.com, port: 443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: seoul.napsternetv.com}, udp: true}
+  - {name: VPN-For-China--ccxiao 2, server: seoul.napsternetv.com, port: 443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: seoul.napsternetv.com}, udp: true}
+  - {name: ccxiao-Moscow, server: 185.112.83.35, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: VPN-for-China--ccxiao, server: 185.194.30.40, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: VPN-For-China--ccxiao 3, server: seoul.napsternetv.com, port: 443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: seoul.napsternetv.com}, udp: true}
+  - {name: ccxiao-Moscow 2, server: 185.112.83.35, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: VPN-for-China--ccxiao 2, server: 185.194.30.40, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: VPN-for-China--ccxiao 3, server: 185.194.30.40, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: VPN-for-China--ccxiao 4, server: 185.194.30.40, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Vienna, server: 94.177.8.87, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Vienna 2, server: 94.177.8.87, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Moscow 3, server: 185.112.83.35, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: ccxiao-Tokyo, server: 103.173.178.110, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Moscow 4, server: 185.112.83.35, port: 41443, type: vmess, uuid: 5B9AF69E-55D4-B6A5-9EED-503C311454A6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: ccxiao-Tokyo 2, server: 103.173.178.110, port: 41443, type: vmess, uuid: DF76C3E2-6A93-5C20-B788-AC8D1DE5E1D2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Tokyo 3, server: 103.173.178.110, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ccxiao-Tokyo 4, server: 103.173.178.110, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Vienna 3, server: 94.177.8.87, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Tokyo 3, server: 103.173.178.110, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Vienna 4, server: 94.177.8.87, port: 41443, type: vmess, uuid: 60F9563F-7FB2-9CD2-703A-A6AA8EB2E5CC, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Vienna 5, server: 94.177.8.87, port: 41443, type: vmess, uuid: 2F9CFF7B-DB81-B142-AC9F-C9E1E092489F, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ccxiao-Moscow 5, server: 185.112.83.35, port: 41443, type: vmess, uuid: 00799734-900D-4D41-F3E3-AE937C647094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -38,25 +39,26 @@ proxy-groups:
       - ccxiao-Novosibirsk 2
       - ccxiao-Novosibirsk 3
       - ccxiao-Novosibirsk 4
-      - ccxiao-Novosibirsk 5
+      - VPN-For-China--ccxiao
+      - VPN-For-China--ccxiao 2
+      - ccxiao-Moscow
       - VPN-for-China--ccxiao
+      - VPN-For-China--ccxiao 3
+      - ccxiao-Moscow 2
       - VPN-for-China--ccxiao 2
       - VPN-for-China--ccxiao 3
-      - ccxiao-Moscow
-      - ccxiao-Moscow 2
-      - ccxiao-Moscow 3
-      - ccxiao-Vienna
-      - ccxiao-Moscow 4
       - VPN-for-China--ccxiao 4
-      - ccxiao-Moscow 5
+      - ccxiao-Vienna
       - ccxiao-Vienna 2
+      - ccxiao-Moscow 3
+      - ccxiao-Tokyo
+      - ccxiao-Moscow 4
+      - ccxiao-Tokyo 2
       - ccxiao-Vienna 3
+      - ccxiao-Tokyo 3
       - ccxiao-Vienna 4
       - ccxiao-Vienna 5
-      - ccxiao-Tokyo
-      - ccxiao-Tokyo 2
-      - ccxiao-Tokyo 3
-      - ccxiao-Tokyo 4
+      - ccxiao-Moscow 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -66,25 +68,26 @@ proxy-groups:
       - ccxiao-Novosibirsk 2
       - ccxiao-Novosibirsk 3
       - ccxiao-Novosibirsk 4
-      - ccxiao-Novosibirsk 5
+      - VPN-For-China--ccxiao
+      - VPN-For-China--ccxiao 2
+      - ccxiao-Moscow
       - VPN-for-China--ccxiao
+      - VPN-For-China--ccxiao 3
+      - ccxiao-Moscow 2
       - VPN-for-China--ccxiao 2
       - VPN-for-China--ccxiao 3
-      - ccxiao-Moscow
-      - ccxiao-Moscow 2
-      - ccxiao-Moscow 3
-      - ccxiao-Vienna
-      - ccxiao-Moscow 4
       - VPN-for-China--ccxiao 4
-      - ccxiao-Moscow 5
+      - ccxiao-Vienna
       - ccxiao-Vienna 2
+      - ccxiao-Moscow 3
+      - ccxiao-Tokyo
+      - ccxiao-Moscow 4
+      - ccxiao-Tokyo 2
       - ccxiao-Vienna 3
+      - ccxiao-Tokyo 3
       - ccxiao-Vienna 4
       - ccxiao-Vienna 5
-      - ccxiao-Tokyo
-      - ccxiao-Tokyo 2
-      - ccxiao-Tokyo 3
-      - ccxiao-Tokyo 4
+      - ccxiao-Moscow 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -95,25 +98,26 @@ proxy-groups:
       - ccxiao-Novosibirsk 2
       - ccxiao-Novosibirsk 3
       - ccxiao-Novosibirsk 4
-      - ccxiao-Novosibirsk 5
+      - VPN-For-China--ccxiao
+      - VPN-For-China--ccxiao 2
+      - ccxiao-Moscow
       - VPN-for-China--ccxiao
+      - VPN-For-China--ccxiao 3
+      - ccxiao-Moscow 2
       - VPN-for-China--ccxiao 2
       - VPN-for-China--ccxiao 3
-      - ccxiao-Moscow
-      - ccxiao-Moscow 2
-      - ccxiao-Moscow 3
-      - ccxiao-Vienna
-      - ccxiao-Moscow 4
       - VPN-for-China--ccxiao 4
-      - ccxiao-Moscow 5
+      - ccxiao-Vienna
       - ccxiao-Vienna 2
+      - ccxiao-Moscow 3
+      - ccxiao-Tokyo
+      - ccxiao-Moscow 4
+      - ccxiao-Tokyo 2
       - ccxiao-Vienna 3
+      - ccxiao-Tokyo 3
       - ccxiao-Vienna 4
       - ccxiao-Vienna 5
-      - ccxiao-Tokyo
-      - ccxiao-Tokyo 2
-      - ccxiao-Tokyo 3
-      - ccxiao-Tokyo 4
+      - ccxiao-Moscow 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,25 +140,26 @@ proxy-groups:
       - ccxiao-Novosibirsk 2
       - ccxiao-Novosibirsk 3
       - ccxiao-Novosibirsk 4
-      - ccxiao-Novosibirsk 5
+      - VPN-For-China--ccxiao
+      - VPN-For-China--ccxiao 2
+      - ccxiao-Moscow
       - VPN-for-China--ccxiao
+      - VPN-For-China--ccxiao 3
+      - ccxiao-Moscow 2
       - VPN-for-China--ccxiao 2
       - VPN-for-China--ccxiao 3
-      - ccxiao-Moscow
-      - ccxiao-Moscow 2
-      - ccxiao-Moscow 3
-      - ccxiao-Vienna
-      - ccxiao-Moscow 4
       - VPN-for-China--ccxiao 4
-      - ccxiao-Moscow 5
+      - ccxiao-Vienna
       - ccxiao-Vienna 2
+      - ccxiao-Moscow 3
+      - ccxiao-Tokyo
+      - ccxiao-Moscow 4
+      - ccxiao-Tokyo 2
       - ccxiao-Vienna 3
+      - ccxiao-Tokyo 3
       - ccxiao-Vienna 4
       - ccxiao-Vienna 5
-      - ccxiao-Tokyo
-      - ccxiao-Tokyo 2
-      - ccxiao-Tokyo 3
-      - ccxiao-Tokyo 4
+      - ccxiao-Moscow 5
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -169,25 +174,26 @@ proxy-groups:
       - ccxiao-Novosibirsk 2
       - ccxiao-Novosibirsk 3
       - ccxiao-Novosibirsk 4
-      - ccxiao-Novosibirsk 5
+      - VPN-For-China--ccxiao
+      - VPN-For-China--ccxiao 2
+      - ccxiao-Moscow
       - VPN-for-China--ccxiao
+      - VPN-For-China--ccxiao 3
+      - ccxiao-Moscow 2
       - VPN-for-China--ccxiao 2
       - VPN-for-China--ccxiao 3
-      - ccxiao-Moscow
-      - ccxiao-Moscow 2
-      - ccxiao-Moscow 3
-      - ccxiao-Vienna
-      - ccxiao-Moscow 4
       - VPN-for-China--ccxiao 4
-      - ccxiao-Moscow 5
+      - ccxiao-Vienna
       - ccxiao-Vienna 2
+      - ccxiao-Moscow 3
+      - ccxiao-Tokyo
+      - ccxiao-Moscow 4
+      - ccxiao-Tokyo 2
       - ccxiao-Vienna 3
+      - ccxiao-Tokyo 3
       - ccxiao-Vienna 4
       - ccxiao-Vienna 5
-      - ccxiao-Tokyo
-      - ccxiao-Tokyo 2
-      - ccxiao-Tokyo 3
-      - ccxiao-Tokyo 4
+      - ccxiao-Moscow 5
   - name: 📲 电报信息
     type: select
     proxies:
@@ -197,25 +203,26 @@ proxy-groups:
       - ccxiao-Novosibirsk 2
       - ccxiao-Novosibirsk 3
       - ccxiao-Novosibirsk 4
-      - ccxiao-Novosibirsk 5
+      - VPN-For-China--ccxiao
+      - VPN-For-China--ccxiao 2
+      - ccxiao-Moscow
       - VPN-for-China--ccxiao
+      - VPN-For-China--ccxiao 3
+      - ccxiao-Moscow 2
       - VPN-for-China--ccxiao 2
       - VPN-for-China--ccxiao 3
-      - ccxiao-Moscow
-      - ccxiao-Moscow 2
-      - ccxiao-Moscow 3
-      - ccxiao-Vienna
-      - ccxiao-Moscow 4
       - VPN-for-China--ccxiao 4
-      - ccxiao-Moscow 5
+      - ccxiao-Vienna
       - ccxiao-Vienna 2
+      - ccxiao-Moscow 3
+      - ccxiao-Tokyo
+      - ccxiao-Moscow 4
+      - ccxiao-Tokyo 2
       - ccxiao-Vienna 3
+      - ccxiao-Tokyo 3
       - ccxiao-Vienna 4
       - ccxiao-Vienna 5
-      - ccxiao-Tokyo
-      - ccxiao-Tokyo 2
-      - ccxiao-Tokyo 3
-      - ccxiao-Tokyo 4
+      - ccxiao-Moscow 5
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -226,25 +233,26 @@ proxy-groups:
       - ccxiao-Novosibirsk 2
       - ccxiao-Novosibirsk 3
       - ccxiao-Novosibirsk 4
-      - ccxiao-Novosibirsk 5
+      - VPN-For-China--ccxiao
+      - VPN-For-China--ccxiao 2
+      - ccxiao-Moscow
       - VPN-for-China--ccxiao
+      - VPN-For-China--ccxiao 3
+      - ccxiao-Moscow 2
       - VPN-for-China--ccxiao 2
       - VPN-for-China--ccxiao 3
-      - ccxiao-Moscow
-      - ccxiao-Moscow 2
-      - ccxiao-Moscow 3
-      - ccxiao-Vienna
-      - ccxiao-Moscow 4
       - VPN-for-China--ccxiao 4
-      - ccxiao-Moscow 5
+      - ccxiao-Vienna
       - ccxiao-Vienna 2
+      - ccxiao-Moscow 3
+      - ccxiao-Tokyo
+      - ccxiao-Moscow 4
+      - ccxiao-Tokyo 2
       - ccxiao-Vienna 3
+      - ccxiao-Tokyo 3
       - ccxiao-Vienna 4
       - ccxiao-Vienna 5
-      - ccxiao-Tokyo
-      - ccxiao-Tokyo 2
-      - ccxiao-Tokyo 3
-      - ccxiao-Tokyo 4
+      - ccxiao-Moscow 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -264,25 +272,26 @@ proxy-groups:
       - ccxiao-Novosibirsk 2
       - ccxiao-Novosibirsk 3
       - ccxiao-Novosibirsk 4
-      - ccxiao-Novosibirsk 5
+      - VPN-For-China--ccxiao
+      - VPN-For-China--ccxiao 2
+      - ccxiao-Moscow
       - VPN-for-China--ccxiao
+      - VPN-For-China--ccxiao 3
+      - ccxiao-Moscow 2
       - VPN-for-China--ccxiao 2
       - VPN-for-China--ccxiao 3
-      - ccxiao-Moscow
-      - ccxiao-Moscow 2
-      - ccxiao-Moscow 3
-      - ccxiao-Vienna
-      - ccxiao-Moscow 4
       - VPN-for-China--ccxiao 4
-      - ccxiao-Moscow 5
+      - ccxiao-Vienna
       - ccxiao-Vienna 2
+      - ccxiao-Moscow 3
+      - ccxiao-Tokyo
+      - ccxiao-Moscow 4
+      - ccxiao-Tokyo 2
       - ccxiao-Vienna 3
+      - ccxiao-Tokyo 3
       - ccxiao-Vienna 4
       - ccxiao-Vienna 5
-      - ccxiao-Tokyo
-      - ccxiao-Tokyo 2
-      - ccxiao-Tokyo 3
-      - ccxiao-Tokyo 4
+      - ccxiao-Moscow 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
